@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<!-- HEAD -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+
+  <title>Awesome Album - Chris Hall</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  
+  <!-- Custom Fonts -->
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <style>
+    #main-content{
+      /*background: red;*/
+      bottom: 0;
+      height: 100px;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 500px;
+      text-align: center;
+    }
+    #player {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+    audio { 
+      width: 100%;
+      display: block;
+      margin:0;
+    }
+
+
+   </style>
+
+</head>
+<!-- HEAD -->
+
+<!-- GLOWING EFFECT FOR TEXT: text-shadow: 0px 0px 6px rgba(255,255,255,0.7); -->
+
+<!-- BODY -->
+<body style="background-image:url(tsHk4m4.jpg)">
+
+  <div id="main-content">
+
+    <h1 style="font-size: 50px; color: white; font-family: 'Maven Pro', 'helvetica', sans-serif; ">Awesome Album</h1>
+    <p style="font-size: 25px; color: black; font-family: 'Dancing Script', 'Lucida Calligraphy', serif;">Chris Hall</p>
+
+    <ul class="list-inline">
+      <li>
+          <a href="#" class="btn btn-default btn-sm"><i class="fa fa-shopping-cart fa-fw"></i> <span class="network-name">Buy</span></a>
+      </li>
+      <li>
+          <a href="https://itunes.apple.com/us/artist/my-morning-jacket/id2322618" class="btn btn-default btn-sm" target="_blank"><i class="fa fa-music fa-fw"></i> <span class="network-name">Apple Music</span></a>
+      </li>
+      <li>
+          <a href="https://open.spotify.com/artist/43O3c6wewpzPKwVaGEEtBM" class="btn btn-default btn-sm" target="_blank"><i class="fa fa-spotify fa-fw"></i> <span class="network-name">Spotify</span></a>
+      </li>
+      
+      
+    </ul>
+    <!-- <p><a href="http://www.w3schools.com">Visit W3Schools.com!</a></p> -->
+  </div>
+  <div id="player">
+    <audio controls autoplay preload="auto">
+      <source src="audio/1-02-Circuital.mp3" type="audio/mpeg">
+<!--       <source src="audio/1-02-Circuital.ogg" type="audio/ogg">
+ -->      <p>Your browser does not support the audio element.</p>
+    </audio>
+
+  </div>
+
+
+  <!-- jQuery -->
+  <!-- <script src="js/jquery.js"></script> -->
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+<!-- BODY -->
+
+</html>
